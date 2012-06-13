@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Worship Planning Tool</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+
+<body>
+
+	<div id="pagewidth" >
+		
+			<div id="header">
+				<h1>Worship Planning Tool</h1>
+			</div>
+			
+			<div id="menu">
+				<ul>
+					<li><a href="#">home</a></li>
+					<li><a href="#">songs</a></li>
+					<li><a href="#">events</a></li>
+					<li><a href="#">practices</a></li>
+					<li><a href="#">musicians</a></li>
+				</ul>
+				<div id="mast">
+					<i>Not logged in</i><a href="#">Logout</a>
+				</div>
+			</div>
+			
+			<div id="wrapper" class="clearfix">
+				<div id="maincol">
+					<%= yield %>
+					<div style="clear:both;margin:0;"></div>
+				</div>
+			</div>
+			
+			<div id="footer">
+				<p>Developed by Alan Gibson, February 2012</p>
+			</div>
+			
+		</div>
+</body>
+
+</html>

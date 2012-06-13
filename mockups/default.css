@@ -1,0 +1,90 @@
+
+html, body{ 
+	margin:0; 
+	padding:0; 
+	text-align:center; 
+	background-color: #332211;
+	color: #090909;
+	font-family: Helvetica, Helvetica Neue, Arial;
+} 
+ 
+#pagewidth{ 
+	width:960px; 
+	text-align:left; 
+	margin:0 auto; 
+} 
+ 
+#header{
+	position:relative; 
+	height:174px; 
+	background: #090909 url(worship-banner.jpg) no-repeat right top;
+	width:100%;
+	display:block;
+	overflow:auto;
+	color: #fff;
+} 
+
+#header h1 {
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#menu {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+#menu ul {
+	list-style-type: none;
+	float: left;
+}
+
+#menu ul li {
+	display: inline;
+}
+
+#menu ul li a {
+	float: left;
+	text-decoration: none;
+	color: #fff;
+	padding: 0px 15px 0px 10px;
+}
+
+#menu ul li a:visited { color: #fff; }
+#menu ul li a:hover     { color: #dd8855; }
+
+
+	
+ 
+#maincol{
+	color: #090909;
+	background-color: #eee;  
+	position: relative; 
+	padding: 10px;
+	min-height: 600px;
+}
+
+
+ 
+
+ 
+ 
+/* ******************************************************************** */ 
+/* Clearfix: http://csscreator.com/attributes/containedfloat.php        */
+/* ******************************************************************** */
+.clearfix:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+}
+ 
+.clearfix{display: inline-block;}
+
+/* Hides from IE-mac \*/
+* html .clearfix{height: 1%;}
+.clearfix{display: block;}
+/* End hide from IE-mac */  
+

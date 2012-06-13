@@ -1,0 +1,122 @@
+
+html, body{ 
+	margin:0; 
+	padding:0; 
+	text-align:center; 
+	background-color: #332211;
+	color: #090909;
+	font-family: Helvetica, Helvetica Neue, Arial;
+	font-size: 0.9em;
+} 
+ 
+#pagewidth{ 
+	width:960px; 
+	text-align:left; 
+	margin:0 auto; 
+} 
+ 
+#header{
+	position:relative; 
+	height:174px; 
+	background: #090909 url(../img/worship-banner.jpg) no-repeat right top;
+	width:100%;
+	display:block;
+	overflow:auto;
+	color: #fff;
+} 
+
+#header h1 {
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#menu {
+	position: relative;
+	background-color: #090909;
+	color: #fff;
+	overflow:auto;
+	height: 25px;
+	padding-top: 5px;
+}
+
+#menu ul {
+	list-style-type: none;
+	float: left;
+}
+
+#menu ul li {
+	display: inline;
+}
+
+#menu ul li a {
+	float: left;
+}
+
+#menu a {
+	text-decoration: none;
+	color: #fff;
+	padding: 0px 15px 5px 10px;
+}
+
+#menu a:visited { color: #fff; }
+#menu a:hover     { color: #dd8855; }
+
+#mast {
+	float: right;
+}
+	
+#wrapper {
+	background-color: #fff;  
+}
+ 
+#maincol {
+	color: #090909;
+	background-color: #fff;  
+	position: relative; 
+	padding: 10px;
+	min-height: 500px;
+}
+
+#footer {
+	color: #fff;
+	font-weight: bold;
+	font-style: italic;
+	text-align: right;
+	font-size: 0.8em;
+}
+ 
+.halfwidth {
+	width: 50%;
+}
+
+img.construction {
+	float: left;
+}
+div.construction {
+	padding-top: 30px;
+	font-size: 1.4em; 
+	font-weight: bold;
+}
+ 
+table {
+	font-size: 0.9em;
+}
+ 
+/* ******************************************************************** */ 
+/* Clearfix: http://csscreator.com/attributes/containedfloat.php        */
+/* ******************************************************************** */
+.clearfix:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+}
+ 
+.clearfix{display: inline-block;}
+
+/* Hides from IE-mac \*/
+* html .clearfix{height: 1%;}
+.clearfix{display: block;}
+/* End hide from IE-mac */  
+
