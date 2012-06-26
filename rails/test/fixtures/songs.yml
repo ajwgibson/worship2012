@@ -1,0 +1,22 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: MyString
+  composer: MyString
+  style: MyString
+  notes: MyText
+  example: MyString
+  onsong: MyText
+
+two:
+  title: MyString
+  composer: MyString
+  style: MyString
+  notes: MyText
+  example: MyString
+  onsong: MyText
+
+amazing_grace:
+  title: Amazing Grace
+
+  
